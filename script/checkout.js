@@ -147,6 +147,6 @@ document.addEventListener("DOMContentLoaded", function () {
     quantityInput.value = 1;
   });
 
-  // Update the total amount display based on the initial quantities
+  // Update the total amount display based on the initial quantities 
   updateTotalAmountDisplay();
 });
