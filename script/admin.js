@@ -1,5 +1,5 @@
 let shoes = [];
-//set
+
 
 
 // function to create my object
@@ -170,7 +170,7 @@ function setAndGet() {
 //table used to display items from localstorage
 let table = document.querySelector("table");
 window.onload = function unity() {
-    //if array is empty display spinner
+  //if array is empty display spinner
   if (shoes.length === 0) {
     table.innerHTML = `
          <div id="cen">
@@ -232,9 +232,9 @@ document.addEventListener("DOMContentLoaded", function () {
     // Prevent the default form submission behavior
     event.preventDefault();
 
-     // Validate input fields using the validateInput function
+    // Validate input fields using the validateInput function
     if (validateInput(item, img, des, price)) {
-       // Create a new Shoe object and add it to the "shoes" array
+      // Create a new Shoe object and add it to the "shoes" array
       shoes.push(
         new Shoe(item.value, des.value, parseFloat(price.value), img.value)
       );
